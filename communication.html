@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Communication &amp; Emotes · Minecity Roleplay Wiki</title>
+<meta name="description" content="Proximity chat channels, roleplay emotes, sitting and crawling, and how to use elevators.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg width="16" height="16" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏙️</text></svg>">
+<style>svg.ico{width:17px;height:17px;flex:none}.brand-ico{width:21px;height:21px}svg{max-width:100%}</style>
+</head>
+<body>
+<div class="scrim" id="scrim"></div>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark"><svg class="brand-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-6 8 6v9a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg></span>
+    <span class="brand-txt"><strong>MINECITY</strong><em>ROLEPLAY WIKI</em></span>
+  </a>
+  <div class="sidebar-search">
+    <button class="search-trigger" data-open-search>
+      <svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v16M15 6v16"/></svg><span>Search the wiki</span><kbd>Ctrl K</kbd>
+    </button>
+  </div>
+  <nav class="nav"><div class="nav-group"><div class="nav-label">Start Here</div><a class="nav-link" href="index.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.8V21h14V9.8"/></svg><span>Home</span></a><a class="nav-link" href="getting-started.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 2-2 4-2 4s2-.5 4-2"/><path d="M9 15l-3-3c1-6 6-11 12-12 0 6-5 11-12 12z"/><circle cx="14.5" cy="6.5" r="1.5"/></svg><span>Getting Started</span></a></div><div class="nav-group"><div class="nav-label">City Life</div><a class="nav-link active" href="communication.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg><span>Communication &amp; Emotes</span></a><a class="nav-link" href="phone-gps.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/><path d="M10 5h4"/></svg><span>Phone &amp; GPS</span></a><a class="nav-link" href="economy.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><span>Economy &amp; Banking</span></a><a class="nav-link" href="properties.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-6 8 6v9a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg><span>Houses &amp; Apartments</span></a><a class="nav-link" href="vehicles.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16v-3l2-5h12l2 5v3"/><path d="M3 16h18v3H3z"/><circle cx="7" cy="19" r="1.6"/><circle cx="17" cy="19" r="1.6"/></svg><span>Vehicles &amp; Traffic</span></a><a class="nav-link" href="weapons.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13l3 3v2H9l-2 4H4l1-4H4z"/></svg><span>Weapons &amp; Ballistics</span></a><a class="nav-link" href="survival.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 10.5a6 6 0 0 1-12 0C6 9.5 12 3 12 3z"/></svg><span>Hydration &amp; Hunger</span></a><a class="nav-link" href="pets.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="9" r="2"/><circle cx="12" cy="7" r="2"/><circle cx="17" cy="9" r="2"/><path d="M12 12c3 0 5 2.5 5 5s-2 3-5 3-5-.5-5-3 2-5 5-5z"/></svg><span>Pets</span></a><a class="nav-link" href="progression.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"/></svg><span>Citizen Levels</span></a></div><div class="nav-group"><div class="nav-label">Public Services</div><a class="nav-link" href="police.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg><span>Police Department</span></a><a class="nav-link" href="medical.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.5-7 9-7 9z"/><path d="M8 12h2l1.5-2 2 4 1.5-2h2"/></svg><span>EMS &amp; Hospital</span></a></div><div class="nav-group"><div class="nav-label">Underworld</div><a class="nav-link" href="crime.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>Crime, Drugs &amp; Gangs</span></a></div><div class="nav-group"><div class="nav-label">Work & Leisure</div><a class="nav-link" href="jobs.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 12h18"/></svg><span>Jobs, Mines &amp; Fishing</span></a><a class="nav-link" href="entertainment.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1"/><circle cx="15" cy="15" r="1"/><circle cx="15" cy="9" r="1"/><circle cx="9" cy="15" r="1"/></svg><span>Leisure &amp; Casino</span></a></div><div class="nav-group"><div class="nav-label">Reference</div><a class="nav-link" href="commands.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg><span>Command Dictionary</span></a><a class="nav-link" href="permissions.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M17 12v3M20 12v2"/></svg><span>Permission Matrix</span></a><a class="nav-link" href="placeholders.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4C7 4 7 6 7 8s-2 2-2 4 2 2 2 4 0 4 2 4"/><path d="M15 4c2 0 2 2 2 4s2 2 2 4-2 2-2 4 0 4-2 4"/></svg><span>Placeholder Guide</span></a></div></nav>
+  <div class="sidebar-foot">
+    <span class="dot"></span> Paper 1.21.x · Java 21
+  </div>
+</aside>
+
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></button>
+  <div class="crumbs"><span>City Life</span><em>/</em><strong>Communication &amp; Emotes</strong></div>
+  <div class="topbar-actions">
+    <button class="icon-btn" data-open-search aria-label="Search"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v16M15 6v16"/></svg></button>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="content">
+<article class="prose"><h1>Communication &amp; Emotes</h1><p>Talking is the whole point of roleplay. Minecity splits speech into <strong>proximity channels</strong> with realistic ranges, so a whisper stays private and a shout carries down the street.</p>
+<h2 id="chat-channels">Chat channels</h2>
+<div class="table-wrap"><table><thead><tr><th>Channel</th><th>Command</th><th>Range</th><th>Use it for</th></tr></thead><tbody><tr><td><strong>Local</strong></td><td>normal chat</td><td>15 blocks</td><td>Everyday conversation</td></tr><tr><td><strong>Action</strong></td><td class="cmd"><code>/me &lt;action&gt;</code></td><td>15 blocks</td><td>Physical actions — <code>/me pulls out his wallet</code></td></tr><tr><td><strong>Environment</strong></td><td class="cmd"><code>/do &lt;context&gt;</code></td><td>15 blocks</td><td>Scene details — <code>/do Would there be broken glass?</code></td></tr><tr><td><strong>Shout</strong></td><td><code>/shout</code> or <code>/g</code></td><td>30 blocks</td><td>Emergencies, chases, warnings</td></tr><tr><td><strong>Whisper</strong></td><td><code>/whisper</code> or <code>/w</code></td><td>3 blocks</td><td>Secrets and private deals</td></tr><tr><td><strong>OOC</strong></td><td class="cmd"><code>/ooc</code></td><td>Whole server</td><td>Out-of-character talk</td></tr></tbody></table></div>
+<div class="callout warn"><div class="callout-title">Warning</div><p>Local chat is <strong>in character</strong>. If you need to discuss a rule, a bug or real life, use <code>/ooc</code> or the Discord — never break character in local chat.</p></div>
+<h3 id="me-versus-do"><code>/me</code> versus <code>/do</code></h3>
+<p>These two are constantly confused, and using them well makes you look like an experienced roleplayer.</p>
+<ul><li><strong><code>/me</code></strong> describes what <strong>your character does</strong>: <code>/me slams the door</code>.</li><li><strong><code>/do</code></strong> describes <strong>the world or the scene</strong>: <code>/do The door frame is cracked</code>.</li></ul>
+<p>Neither replaces the other. A scene reads badly when every action is written as <code>/me</code>.</p>
+<h2 id="emotes-and-postures">Emotes and postures</h2>
+<p>GSit gives you a full set of body poses.</p>
+<div class="table-wrap"><table><thead><tr><th>Command</th><th>Effect</th></tr></thead><tbody><tr><td>Right-click stairs, slabs or carpets</td><td>Sit on them as if they were furniture</td></tr><tr><td class="cmd"><code>/sit</code></td><td>Sit anywhere</td></tr><tr><td class="cmd"><code>/lay</code></td><td>Lie on your back</td></tr><tr><td class="cmd"><code>/crawl</code></td><td>Crawl on the ground — ducts, cover, injuries</td></tr><tr><td class="cmd"><code>/spin</code></td><td>Spin in place</td></tr><tr><td class="cmd"><code>/bellyflop</code></td><td>Dive face-first onto the ground</td></tr></tbody></table></div>
+<div class="callout tip"><div class="callout-title">Tip</div><p><code>/crawl</code> is not only cosmetic: medical staff use it to represent the downed state, and it is the fastest way to move under low gaps in a build.</p></div>
+<h2 id="elevators">Elevators</h2>
+<p>Skyscrapers have elevator blocks on every floor.</p>
+<div class="table-wrap"><table><thead><tr><th>Input</th><th>Result</th></tr></thead><tbody><tr><td><strong>Jump</strong> (Space) on the elevator block</td><td>Go up one floor</td></tr><tr><td><strong>Sneak</strong> (Shift) on the elevator block</td><td>Go down one floor</td></tr></tbody></table></div>
+<p>Stand still on the block and press the key once. Holding it will keep moving you.</p>
+<h2 id="chat-etiquette">Chat etiquette</h2>
+<ol><li><strong>No advertising</strong> other servers — the filter blocks it and logs the attempt.</li><li><strong>No slurs or hate speech</strong>, in character or out.</li><li><strong>No metagaming</strong> — do not act on information your character could not have.</li><li><strong>No powergaming</strong> — do not force outcomes on another player.</li><li><strong>Keep OOC drama out of IC chat.</strong></li></ol>
+<h2 id="reporting">Reporting</h2>
+<div class="table-wrap"><table><thead><tr><th>Command</th><th>Purpose</th></tr></thead><tbody><tr><td class="cmd"><code>/report &lt;player&gt; &lt;reason&gt;</code></td><td>File a report with staff</td></tr><tr><td class="cmd"><code>/helpop &lt;message&gt;</code></td><td>Ping online staff</td></tr><tr><td class="cmd"><code>/ignore &lt;player&gt;</code></td><td>Stop seeing a player's messages</td></tr><tr><td class="cmd"><code>/msgtoggle</code></td><td>Block all private messages</td></tr></tbody></table></div>
+<div class="callout warn"><div class="callout-title">Warning</div><p>Reports are for rule violations: cheating, harassment, griefing, slurs. They are not for losing a fight. Spamming reports buries real ones.</p></div></article>
+['<div class="pager">', '<a class="pager-link prev" href="getting-started.html"><span>Previous</span><strong>Getting Started</strong></a>', '<a class="pager-link next" href="phone-gps.html"><span>Next</span><strong>Phone &amp; GPS</strong></a>', '</div>']
+</main>
+<aside class="toc"><div class="toc-label">On this page</div><a href="#chat-channels">Chat channels</a><a href="#emotes-and-postures">Emotes and postures</a><a href="#elevators">Elevators</a><a href="#chat-etiquette">Chat etiquette</a><a href="#reporting">Reporting</a></aside>
+
+<div class="search-modal" id="searchModal" hidden>
+  <div class="search-box">
+    <div class="search-input-row">
+      <svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v16M15 6v16"/></svg>
+      <input id="searchInput" type="text" placeholder="Search commands, systems, permissions…" autocomplete="off" spellcheck="false">
+      <kbd>Esc</kbd>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+    <div class="search-hint">↑↓ to navigate · Enter to open · Ctrl K anywhere</div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span>Minecity Roleplay Wiki</span>
+  <span class="sep">·</span>
+  <span>Built for the Minecity Roleplay community</span>
+  <span class="sep">·</span>
+  <span>Updated 2026-11-01</span>
+</footer>
+<script src="assets/search.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

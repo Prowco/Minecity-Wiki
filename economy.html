@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Economy &amp; Banking · Minecity Roleplay Wiki</title>
+<meta name="description" content="Cash versus bank balance, ATMs, transfers, loans, hourly salaries and the auction house.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg width="16" height="16" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏙️</text></svg>">
+<style>svg.ico{width:17px;height:17px;flex:none}.brand-ico{width:21px;height:21px}svg{max-width:100%}</style>
+</head>
+<body>
+<div class="scrim" id="scrim"></div>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark"><svg class="brand-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-6 8 6v9a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg></span>
+    <span class="brand-txt"><strong>MINECITY</strong><em>ROLEPLAY WIKI</em></span>
+  </a>
+  <div class="sidebar-search">
+    <button class="search-trigger" data-open-search>
+      <svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v16M15 6v16"/></svg><span>Search the wiki</span><kbd>Ctrl K</kbd>
+    </button>
+  </div>
+  <nav class="nav"><div class="nav-group"><div class="nav-label">Start Here</div><a class="nav-link" href="index.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.8V21h14V9.8"/></svg><span>Home</span></a><a class="nav-link" href="getting-started.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 2-2 4-2 4s2-.5 4-2"/><path d="M9 15l-3-3c1-6 6-11 12-12 0 6-5 11-12 12z"/><circle cx="14.5" cy="6.5" r="1.5"/></svg><span>Getting Started</span></a></div><div class="nav-group"><div class="nav-label">City Life</div><a class="nav-link" href="communication.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg><span>Communication &amp; Emotes</span></a><a class="nav-link" href="phone-gps.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/><path d="M10 5h4"/></svg><span>Phone &amp; GPS</span></a><a class="nav-link active" href="economy.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg><span>Economy &amp; Banking</span></a><a class="nav-link" href="properties.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-6 8 6v9a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg><span>Houses &amp; Apartments</span></a><a class="nav-link" href="vehicles.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16v-3l2-5h12l2 5v3"/><path d="M3 16h18v3H3z"/><circle cx="7" cy="19" r="1.6"/><circle cx="17" cy="19" r="1.6"/></svg><span>Vehicles &amp; Traffic</span></a><a class="nav-link" href="weapons.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13l3 3v2H9l-2 4H4l1-4H4z"/></svg><span>Weapons &amp; Ballistics</span></a><a class="nav-link" href="survival.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 10.5a6 6 0 0 1-12 0C6 9.5 12 3 12 3z"/></svg><span>Hydration &amp; Hunger</span></a><a class="nav-link" href="pets.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="9" r="2"/><circle cx="12" cy="7" r="2"/><circle cx="17" cy="9" r="2"/><path d="M12 12c3 0 5 2.5 5 5s-2 3-5 3-5-.5-5-3 2-5 5-5z"/></svg><span>Pets</span></a><a class="nav-link" href="progression.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"/></svg><span>Citizen Levels</span></a></div><div class="nav-group"><div class="nav-label">Public Services</div><a class="nav-link" href="police.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg><span>Police Department</span></a><a class="nav-link" href="medical.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.5-7 9-7 9z"/><path d="M8 12h2l1.5-2 2 4 1.5-2h2"/></svg><span>EMS &amp; Hospital</span></a></div><div class="nav-group"><div class="nav-label">Underworld</div><a class="nav-link" href="crime.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>Crime, Drugs &amp; Gangs</span></a></div><div class="nav-group"><div class="nav-label">Work & Leisure</div><a class="nav-link" href="jobs.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 12h18"/></svg><span>Jobs, Mines &amp; Fishing</span></a><a class="nav-link" href="entertainment.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1"/><circle cx="15" cy="15" r="1"/><circle cx="15" cy="9" r="1"/><circle cx="9" cy="15" r="1"/></svg><span>Leisure &amp; Casino</span></a></div><div class="nav-group"><div class="nav-label">Reference</div><a class="nav-link" href="commands.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg><span>Command Dictionary</span></a><a class="nav-link" href="permissions.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M17 12v3M20 12v2"/></svg><span>Permission Matrix</span></a><a class="nav-link" href="placeholders.html"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4C7 4 7 6 7 8s-2 2-2 4 2 2 2 4 0 4 2 4"/><path d="M15 4c2 0 2 2 2 4s2 2 2 4-2 2-2 4 0 4-2 4"/></svg><span>Placeholder Guide</span></a></div></nav>
+  <div class="sidebar-foot">
+    <span class="dot"></span> Paper 1.21.x · Java 21
+  </div>
+</aside>
+
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></button>
+  <div class="crumbs"><span>City Life</span><em>/</em><strong>Economy &amp; Banking</strong></div>
+  <div class="topbar-actions">
+    <button class="icon-btn" data-open-search aria-label="Search"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v16M15 6v16"/></svg></button>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="content">
+<article class="prose"><h1>Economy &amp; Banking</h1><p>Every system in the city feeds the same currency, managed through <strong>Vault</strong>. Understanding where money is safe — and where it is not — is the difference between a comfortable character and a broke one.</p>
+<h2 id="cash-versus-bank">Cash versus bank</h2>
+<div class="table-wrap"><table><thead><tr><th>Form</th><th>Where it lives</th><th>Safe?</th></tr></thead><tbody><tr><td><strong>Cash</strong></td><td>Items in your inventory</td><td><strong>No</strong> — lost when robbed or killed</td></tr><tr><td><strong>Bank balance</strong></td><td>Your account</td><td>Yes</td></tr><tr><td><strong>Gang bank</strong></td><td>Shared clan treasury</td><td>Yes, but shared</td></tr></tbody></table></div>
+<p>Cash is physical. It occupies inventory slots and it drops with your body.</p>
+<div class="callout warn"><div class="callout-title">Warning</div><p>If you are carrying more than you would be happy to lose, you are carrying too much. Deposit before every risky trip.</p></div>
+<h2 id="the-bank">The bank</h2>
+<p>Branches of the Central Bank are in the city centre, and ATMs are scattered around every district.</p>
+<pre class="code"><code>/bank</code></pre>
+<div class="table-wrap"><table><thead><tr><th>Command</th><th>What it does</th></tr></thead><tbody><tr><td class="cmd"><code>/bank</code></td><td>Opens your account panel</td></tr><tr><td class="cmd"><code>/bank deposit &lt;amount&gt;</code></td><td>Puts cash into your account</td></tr><tr><td class="cmd"><code>/bank withdraw &lt;amount&gt;</code></td><td>Takes cash out</td></tr><tr><td class="cmd"><code>/bank pay &lt;player&gt; &lt;amount&gt;</code></td><td>Transfers money to another citizen</td></tr><tr><td class="cmd"><code>/bank loan</code></td><td>Opens the loan system</td></tr></tbody></table></div>
+<div class="callout tip"><div class="callout-title">Tip</div><p><code>deposit all</code> and <code>withdraw all</code> are accepted shortcuts in the GUI. Use them after every payday.</p></div>
+<h2 id="transfers-and-payments">Transfers and payments</h2>
+<ul><li><code>/bank pay &lt;player&gt; &lt;amount&gt;</code> moves money directly between accounts.</li><li><code>/pay &lt;player&gt; &lt;amount&gt;</code> is the Essentials equivalent and works the same way.</li><li><code>/paytoggle</code> blocks all incoming payments if you are being spammed.</li></ul>
+<p>For face-to-face roleplay payments, the <strong>friend inventory</strong> lets you hand over cash items directly.</p>
+<h2 id="salaries">Salaries</h2>
+<p>Salary is paid automatically every <strong>60 minutes</strong> of active play. AFK time does not count.</p>
+<div class="table-wrap"><table><thead><tr><th>Role</th><th>Wage</th></tr></thead><tbody><tr><td>Civilian</td><td>Basic civic allowance</td></tr><tr><td>Paramedic on duty</td><td><strong>$500 per hour</strong></td></tr><tr><td>Police officer</td><td>State wage, scaled by rank</td></tr><tr><td>Citizen level 1+</td><td>Higher brackets as your level rises</td></tr></tbody></table></div>
+<p>See <a href="progression.html">Citizen Levels</a> for the full salary ladder.</p>
+<p><code>/payday</code> shows when your next payment is due.</p>
+<h2 id="loans">Loans</h2>
+<p><code>/bank loan</code> opens the credit system.</p>
+<ul><li>Loans are for citizens with a stable income and a clean record.</li><li>Interest is charged over the repayment period.</li><li>Defaulting blocks future credit and can freeze your account.</li></ul>
+<div class="callout info"><div class="callout-title">Note</div><p>A loan is a roleplay commitment, not free money. Do not borrow to gamble — that story ends with a repo man, not a jackpot.</p></div>
+<h2 id="the-auction-house">The auction house</h2>
+<p><code>/ah</code> opens the player marketplace.</p>
+<div class="table-wrap"><table><thead><tr><th>Command</th><th>Effect</th></tr></thead><tbody><tr><td class="cmd"><code>/ah</code></td><td>Browse listings</td></tr><tr><td class="cmd"><code>/ah sell &lt;price&gt;</code></td><td>List the item in your hand</td></tr><tr><td class="cmd"><code>/ah expired</code></td><td>Recover expired listings</td></tr><tr><td class="cmd"><code>/ah collect</code></td><td>Claim money from sales</td></tr></tbody></table></div>
+<p>Listings run for seven days. Damaged items cannot be listed.</p>
+<h2 id="where-money-leaks-out">Where money leaks out</h2>
+<div class="table-wrap"><table><thead><tr><th>Sink</th><th>Cost</th></tr></thead><tbody><tr><td>Rent</td><td>Recurring, per property cycle</td></tr><tr><td>Fuel and repairs</td><td>Per vehicle, per trip</td></tr><tr><td>Medical bills</td><td>$30–$250 depending on treatment</td></tr><tr><td>Pharmacy</td><td>$30–$100 per cure</td></tr><tr><td>Fines and bail</td><td>Set by police</td></tr><tr><td>Casino and lottery</td><td>The house always wins in the end</td></tr><tr><td>Death</td><td>Everything in your pockets</td></tr></tbody></table></div>
+<h2 id="earning-money">Earning money</h2>
+<div class="table-wrap"><table><thead><tr><th>Method</th><th>Effort</th><th>Risk</th></tr></thead><tbody><tr><td>Hourly salary</td><td>None — automatic</td><td>None</td></tr><tr><td>Job quests</td><td>Medium</td><td>Low</td></tr><tr><td>Mining</td><td>High</td><td>Low</td></tr><tr><td>Fishing + tournaments</td><td>Medium</td><td>Low</td></tr><tr><td>Police / EMS duty</td><td>High</td><td>Combat</td></tr><tr><td>Crime</td><td>Very high</td><td>Jail, death, wanted stars</td></tr><tr><td>Trading on <code>/ah</code></td><td>Medium</td><td>Market risk</td></tr></tbody></table></div>
+<h2 id="practical-rules">Practical rules</h2>
+<ol><li><strong>Bank after every payday.</strong> No exceptions.</li><li><strong>Keep a rent buffer</strong> of at least one cycle.</li><li><strong>Never carry a full balance</strong> into a robbery, a chase or a gunfight.</li><li><strong>Do not trust "duplication" offers.</strong> They are exploits, rolled back with a ban.</li><li><strong>Check <code>/ah</code> prices</strong> before selling to a vendor — players often pay more.</li></ol></article>
+['<div class="pager">', '<a class="pager-link prev" href="phone-gps.html"><span>Previous</span><strong>Phone &amp; GPS</strong></a>', '<a class="pager-link next" href="properties.html"><span>Next</span><strong>Houses &amp; Apartments</strong></a>', '</div>']
+</main>
+<aside class="toc"><div class="toc-label">On this page</div><a href="#cash-versus-bank">Cash versus bank</a><a href="#the-bank">The bank</a><a href="#transfers-and-payments">Transfers and payments</a><a href="#salaries">Salaries</a><a href="#loans">Loans</a><a href="#the-auction-house">The auction house</a><a href="#where-money-leaks-out">Where money leaks out</a><a href="#earning-money">Earning money</a><a href="#practical-rules">Practical rules</a></aside>
+
+<div class="search-modal" id="searchModal" hidden>
+  <div class="search-box">
+    <div class="search-input-row">
+      <svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v16M15 6v16"/></svg>
+      <input id="searchInput" type="text" placeholder="Search commands, systems, permissions…" autocomplete="off" spellcheck="false">
+      <kbd>Esc</kbd>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+    <div class="search-hint">↑↓ to navigate · Enter to open · Ctrl K anywhere</div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span>Minecity Roleplay Wiki</span>
+  <span class="sep">·</span>
+  <span>Built for the Minecity Roleplay community</span>
+  <span class="sep">·</span>
+  <span>Updated 2026-11-01</span>
+</footer>
+<script src="assets/search.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
